@@ -9,9 +9,15 @@
 /* Begin PBXBuildFile section */
 		BFE6421A1F25106C00161500 /* CalculatorExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE642181F25106C00161500 /* CalculatorExample.cpp */; };
 		BFE6421E1F25123E00161500 /* MinusCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE6421C1F25123E00161500 /* MinusCommand.cpp */; };
+		BFE6422F1F26470500161500 /* FlyweightImplementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE6422B1F26470500161500 /* FlyweightImplementation.cpp */; };
+		BFE642301F26470500161500 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE6422D1F26470500161500 /* main.cpp */; };
+		BFE642311F26470500161500 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BFE6422E1F26470500161500 /* README.md */; };
+		BFE642341F2647D100161500 /* BadImplementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE642321F2647D100161500 /* BadImplementation.cpp */; };
+		BFE642371F26484B00161500 /* BadTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE642351F26484B00161500 /* BadTile.cpp */; };
+		BFE6423A1F26551900161500 /* FlyweightFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE642381F26551900161500 /* FlyweightFactory.cpp */; };
+		BFE6423D1F26556000161500 /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE6423B1F26556000161500 /* Tile.cpp */; };
 		BFE9DDAB1F1A725F002ACB1E /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE9DDA91F1A725F002ACB1E /* Command.cpp */; };
 		BFE9DDB01F1A7637002ACB1E /* AddCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE9DDAE1F1A7637002ACB1E /* AddCommand.cpp */; };
-		BFE9DDB21F1A784C002ACB1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE9DDB11F1A784C002ACB1E /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +37,18 @@
 		BFE642191F25106C00161500 /* CalculatorExample.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CalculatorExample.hpp; sourceTree = "<group>"; };
 		BFE6421C1F25123E00161500 /* MinusCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinusCommand.cpp; sourceTree = "<group>"; };
 		BFE6421D1F25123E00161500 /* MinusCommand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MinusCommand.hpp; sourceTree = "<group>"; };
+		BFE6422B1F26470500161500 /* FlyweightImplementation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlyweightImplementation.cpp; sourceTree = "<group>"; };
+		BFE6422C1F26470500161500 /* FlyweightImplementation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FlyweightImplementation.hpp; sourceTree = "<group>"; };
+		BFE6422D1F26470500161500 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BFE6422E1F26470500161500 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BFE642321F2647D100161500 /* BadImplementation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BadImplementation.cpp; path = flyweight/src/BadImplementation.cpp; sourceTree = "<group>"; };
+		BFE642331F2647D100161500 /* BadImplementation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BadImplementation.hpp; path = flyweight/src/BadImplementation.hpp; sourceTree = "<group>"; };
+		BFE642351F26484B00161500 /* BadTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BadTile.cpp; path = flyweight/src/UnoptimizedCode/BadTile.cpp; sourceTree = "<group>"; };
+		BFE642361F26484B00161500 /* BadTile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BadTile.hpp; path = flyweight/src/UnoptimizedCode/BadTile.hpp; sourceTree = "<group>"; };
+		BFE642381F26551900161500 /* FlyweightFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FlyweightFactory.cpp; path = flyweight/src/OptimizedCode/FlyweightFactory.cpp; sourceTree = "<group>"; };
+		BFE642391F26551900161500 /* FlyweightFactory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FlyweightFactory.hpp; path = flyweight/src/OptimizedCode/FlyweightFactory.hpp; sourceTree = "<group>"; };
+		BFE6423B1F26556000161500 /* Tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tile.cpp; path = flyweight/src/OptimizedCode/Tile.cpp; sourceTree = "<group>"; };
+		BFE6423C1F26556000161500 /* Tile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tile.hpp; path = flyweight/src/OptimizedCode/Tile.hpp; sourceTree = "<group>"; };
 		BFE9DD9D1F1A6BBD002ACB1E /* programming-patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "programming-patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE9DDA91F1A725F002ACB1E /* Command.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
 		BFE9DDAA1F1A725F002ACB1E /* Command.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Command.hpp; sourceTree = "<group>"; };
@@ -64,6 +82,26 @@
 			name = commands;
 			sourceTree = "<group>";
 		};
+		BFE6422A1F2646EC00161500 /* flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				BFE6422B1F26470500161500 /* FlyweightImplementation.cpp */,
+				BFE6422C1F26470500161500 /* FlyweightImplementation.hpp */,
+				BFE6422D1F26470500161500 /* main.cpp */,
+				BFE6422E1F26470500161500 /* README.md */,
+				BFE642321F2647D100161500 /* BadImplementation.cpp */,
+				BFE642331F2647D100161500 /* BadImplementation.hpp */,
+				BFE642351F26484B00161500 /* BadTile.cpp */,
+				BFE642361F26484B00161500 /* BadTile.hpp */,
+				BFE642381F26551900161500 /* FlyweightFactory.cpp */,
+				BFE642391F26551900161500 /* FlyweightFactory.hpp */,
+				BFE6423B1F26556000161500 /* Tile.cpp */,
+				BFE6423C1F26556000161500 /* Tile.hpp */,
+			);
+			name = flyweight;
+			path = "/Users/fdzjuancarlos/dev/learning/books/game-programming-patterns/programming-patterns/classic";
+			sourceTree = "<absolute>";
+		};
 		BFE9DD941F1A6BBD002ACB1E = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +129,7 @@
 		BFE9DDA71F1A7237002ACB1E /* classic */ = {
 			isa = PBXGroup;
 			children = (
+				BFE6422A1F2646EC00161500 /* flyweight */,
 				BFE9DDA81F1A7245002ACB1E /* command */,
 			);
 			path = classic;
@@ -99,8 +138,8 @@
 		BFE9DDA81F1A7245002ACB1E /* command */ = {
 			isa = PBXGroup;
 			children = (
-				BFE9DDAC1F1A728F002ACB1E /* src */,
 				BFE9DDAD1F1A72AF002ACB1E /* README.md */,
+				BFE9DDAC1F1A728F002ACB1E /* src */,
 			);
 			path = command;
 			sourceTree = "<group>";
@@ -172,11 +211,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE6423D1F26556000161500 /* Tile.cpp in Sources */,
+				BFE642341F2647D100161500 /* BadImplementation.cpp in Sources */,
 				BFE6421A1F25106C00161500 /* CalculatorExample.cpp in Sources */,
+				BFE6422F1F26470500161500 /* FlyweightImplementation.cpp in Sources */,
 				BFE9DDB01F1A7637002ACB1E /* AddCommand.cpp in Sources */,
-				BFE9DDB21F1A784C002ACB1E /* main.cpp in Sources */,
+				BFE642301F26470500161500 /* main.cpp in Sources */,
 				BFE9DDAB1F1A725F002ACB1E /* Command.cpp in Sources */,
+				BFE642311F26470500161500 /* README.md in Sources */,
 				BFE6421E1F25123E00161500 /* MinusCommand.cpp in Sources */,
+				BFE6423A1F26551900161500 /* FlyweightFactory.cpp in Sources */,
+				BFE642371F26484B00161500 /* BadTile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,5 @@
 # Prerequisites
+jj
 *.d
 
 # Compiled Object files
@@ -32,3 +33,5 @@
 *.app
 
 *xcode*
+*project*
+*DS*
