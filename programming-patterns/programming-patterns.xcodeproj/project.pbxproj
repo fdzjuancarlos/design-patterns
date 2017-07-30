@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		BFE6421A1F25106C00161500 /* CalculatorExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE642181F25106C00161500 /* CalculatorExample.cpp */; };
 		BFE6421E1F25123E00161500 /* MinusCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE6421C1F25123E00161500 /* MinusCommand.cpp */; };
-		BFE642401F28EDAE00161500 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE6423F1F28EDAE00161500 /* main.cpp */; };
 		BFE642431F28EDF900161500 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE642411F28EDF900161500 /* Game.cpp */; };
 		BFE642461F28EE8300161500 /* Observer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE642441F28EE8300161500 /* Observer.cpp */; };
 		BFE642491F28EF3500161500 /* BingoMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE642471F28EF3500161500 /* BingoMaster.cpp */; };
 		BFE6424C1F28F04C00161500 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE6424A1F28F04C00161500 /* Player.cpp */; };
+		BFE642581F2E33FC00161500 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE642571F2E33FC00161500 /* main.cpp */; };
+		BFE6425B1F2E341C00161500 /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE642591F2E341C00161500 /* GameManager.cpp */; };
+		BFE6425E1F2E345B00161500 /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE6425C1F2E345B00161500 /* State.cpp */; };
+		BFE642611F2E361E00161500 /* MeleeAttack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE6425F1F2E361E00161500 /* MeleeAttack.cpp */; };
+		BFE642651F2E37DD00161500 /* CriticalHit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE642631F2E37DD00161500 /* CriticalHit.cpp */; };
 		BFE9DDAB1F1A725F002ACB1E /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE9DDA91F1A725F002ACB1E /* Command.cpp */; };
 		BFE9DDB01F1A7637002ACB1E /* AddCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE9DDAE1F1A7637002ACB1E /* AddCommand.cpp */; };
 /* End PBXBuildFile section */
@@ -44,6 +48,16 @@
 		BFE642481F28EF3500161500 /* BingoMaster.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BingoMaster.hpp; path = observer/src/BingoMaster.hpp; sourceTree = "<group>"; };
 		BFE6424A1F28F04C00161500 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = observer/src/Player.cpp; sourceTree = "<group>"; };
 		BFE6424B1F28F04C00161500 /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Player.hpp; path = observer/src/Player.hpp; sourceTree = "<group>"; };
+		BFE642571F2E33FC00161500 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = state/main.cpp; sourceTree = "<group>"; };
+		BFE642591F2E341C00161500 /* GameManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameManager.cpp; path = state/GameManager.cpp; sourceTree = "<group>"; };
+		BFE6425A1F2E341C00161500 /* GameManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GameManager.hpp; path = state/GameManager.hpp; sourceTree = "<group>"; };
+		BFE6425C1F2E345B00161500 /* State.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = State.cpp; path = state/State.cpp; sourceTree = "<group>"; };
+		BFE6425D1F2E345B00161500 /* State.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = State.hpp; path = state/State.hpp; sourceTree = "<group>"; };
+		BFE6425F1F2E361E00161500 /* MeleeAttack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MeleeAttack.cpp; path = state/MeleeAttack.cpp; sourceTree = "<group>"; };
+		BFE642601F2E361E00161500 /* MeleeAttack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MeleeAttack.hpp; path = state/MeleeAttack.hpp; sourceTree = "<group>"; };
+		BFE642621F2E36B500161500 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = state/Constants.h; sourceTree = "<group>"; };
+		BFE642631F2E37DD00161500 /* CriticalHit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CriticalHit.cpp; path = state/CriticalHit.cpp; sourceTree = "<group>"; };
+		BFE642641F2E37DD00161500 /* CriticalHit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CriticalHit.hpp; path = state/CriticalHit.hpp; sourceTree = "<group>"; };
 		BFE9DD9D1F1A6BBD002ACB1E /* programming-patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "programming-patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE9DDA91F1A725F002ACB1E /* Command.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
 		BFE9DDAA1F1A725F002ACB1E /* Command.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Command.hpp; sourceTree = "<group>"; };
@@ -93,6 +107,23 @@
 			name = observer;
 			sourceTree = "<group>";
 		};
+		BFE642561F2E33EF00161500 /* state */ = {
+			isa = PBXGroup;
+			children = (
+				BFE642571F2E33FC00161500 /* main.cpp */,
+				BFE642591F2E341C00161500 /* GameManager.cpp */,
+				BFE6425A1F2E341C00161500 /* GameManager.hpp */,
+				BFE6425C1F2E345B00161500 /* State.cpp */,
+				BFE6425D1F2E345B00161500 /* State.hpp */,
+				BFE6425F1F2E361E00161500 /* MeleeAttack.cpp */,
+				BFE642601F2E361E00161500 /* MeleeAttack.hpp */,
+				BFE642621F2E36B500161500 /* Constants.h */,
+				BFE642631F2E37DD00161500 /* CriticalHit.cpp */,
+				BFE642641F2E37DD00161500 /* CriticalHit.hpp */,
+			);
+			name = state;
+			sourceTree = "<group>";
+		};
 		BFE9DD941F1A6BBD002ACB1E = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +151,7 @@
 		BFE9DDA71F1A7237002ACB1E /* classic */ = {
 			isa = PBXGroup;
 			children = (
+				BFE642561F2E33EF00161500 /* state */,
 				BFE6423E1F28ED8000161500 /* observer */,
 				BFE9DDA81F1A7245002ACB1E /* command */,
 			);
@@ -202,10 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE642401F28EDAE00161500 /* main.cpp in Sources */,
 				BFE6421A1F25106C00161500 /* CalculatorExample.cpp in Sources */,
+				BFE6425B1F2E341C00161500 /* GameManager.cpp in Sources */,
+				BFE6425E1F2E345B00161500 /* State.cpp in Sources */,
 				BFE642461F28EE8300161500 /* Observer.cpp in Sources */,
+				BFE642611F2E361E00161500 /* MeleeAttack.cpp in Sources */,
+				BFE642581F2E33FC00161500 /* main.cpp in Sources */,
 				BFE9DDB01F1A7637002ACB1E /* AddCommand.cpp in Sources */,
+				BFE642651F2E37DD00161500 /* CriticalHit.cpp in Sources */,
 				BFE642491F28EF3500161500 /* BingoMaster.cpp in Sources */,
 				BFE6424C1F28F04C00161500 /* Player.cpp in Sources */,
 				BFE642431F28EDF900161500 /* Game.cpp in Sources */,
@@ -323,7 +359,9 @@
 		BFE9DDA51F1A6BBD002ACB1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -331,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
 		};
